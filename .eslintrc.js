@@ -16,5 +16,6 @@ module.exports = {
     'comma-dangle': 'off',
     'semi': 'off',
     'space-before-function-paren': 'off',
+    'new-cap': 'off',
   }
 }
