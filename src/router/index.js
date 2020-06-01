@@ -29,6 +29,11 @@ const routes = [
     name: 'BasicExcel',
     component: () => import('../views/excel/basic.vue'),
   },
+  {
+    path: '/excel/multi-header-table',
+    name: 'MultiHeaderExcel',
+    component: () => import('../views/excel/multiHeader.vue'),
+  },
 ]
 
 const router = new VueRouter({

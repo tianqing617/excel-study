@@ -2,7 +2,8 @@
   <div id="app">
     <div id="nav">
       <router-link to="/excel/index">Index</router-link> |
-      <router-link to="/excel/basic">Basic</router-link>
+      <router-link to="/excel/basic">Basic</router-link> |
+      <router-link to="/excel/multi-header-table">Multi-Header</router-link> |
     </div>
     <router-view/>
   </div>
