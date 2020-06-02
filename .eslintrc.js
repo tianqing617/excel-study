@@ -17,5 +17,6 @@ module.exports = {
     'semi': 'off',
     'space-before-function-paren': 'off',
     'new-cap': 'off',
+    'no-sparse-arrays': 'off',
   }
 }
