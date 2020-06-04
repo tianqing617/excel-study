@@ -4,6 +4,7 @@
       <router-link to="/excel/index">Index</router-link> |
       <router-link to="/excel/basic">Basic</router-link> |
       <router-link to="/excel/multi-header-table">Multi-Header</router-link> |
+      <router-link to="/excel/multi-header-demo">Multi-Header Demo</router-link> |
     </div>
     <router-view/>
   </div>

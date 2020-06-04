@@ -30,10 +30,13 @@ export default {
 
       const mySheet = workbook.addWorksheet('my sheet');
 
+      // 合并表头
+      mySheet.mergeCells(1, 1, 1, 2);
+
       // 3. 生成内容
       // 3.1 生成表头
       mySheet.columns = [
-        { header: '编号', key: 'id', width: 10 },
+        { header: '编号', key: 'id', width: 10 },,
         { header: '姓名', key: 'name', width: 32 },
       ];
 
