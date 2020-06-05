@@ -70,13 +70,14 @@ export default {
       mySheet.mergeCells(1, 6, 2, 6);
 
       // 设置样式
-      // mySheet.getCell(1, 2, 1, 5).fill = {
-      //   type: 'pattern', // 模式
-      //   pattern: 'solid', // 填充
-      //   fgColor: {
-      //     argb: '#a7ca52' // 背景色
-      //   }
-      // };
+      mySheet.getCell(1, 2, 1, 5).font = {
+        // name: 'Arial Black',
+        // color: { argb: 'FF00FF00' },
+        // family: 2,
+        // size: 14,
+        // italic: true
+        bold: true,
+      };
 
       // 4. 输出文件
       workbook.xlsx.writeBuffer().then(data => {
